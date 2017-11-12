@@ -29,5 +29,21 @@ namespace CodeWars
 
             return new Dictionary<string, int>() { { "rabbits", rabbits_count }, { "chickens", chickens_count }, { "cows", cows_count } };
         }
+
+
+        public static List<int> Solve(List<string> arr)
+        {
+            string str = "0abcdefghijklmnopqrstuvwxyz";
+            char[] chararr = str.ToCharArray();
+
+            foreach(var element in arr)
+            {
+                Console.Write(str);
+            }
+
+   
+
+            throw new NotImplementedException();
+        }
     }
 }

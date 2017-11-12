@@ -5,3 +5,6 @@ C:\Users\mhakimov\source\repos\CodeWars\CodeWars\obj\Debug\CodeWars.csprojResolv
 C:\Users\mhakimov\source\repos\CodeWars\CodeWars\obj\Debug\CodeWars.csproj.CoreCompileInputs.cache
 C:\Users\mhakimov\source\repos\CodeWars\CodeWars\obj\Debug\CodeWars.exe
 C:\Users\mhakimov\source\repos\CodeWars\CodeWars\obj\Debug\CodeWars.pdb
+C:\Users\dakanca1\Documents\Visual Studio 2015\Projects\CodeWarsCsharp\CodeWarsCsharp\CodeWars\bin\Debug\CodeWars.exe.config
+C:\Users\dakanca1\Documents\Visual Studio 2015\Projects\CodeWarsCsharp\CodeWarsCsharp\CodeWars\obj\Debug\CodeWars.exe
+C:\Users\dakanca1\Documents\Visual Studio 2015\Projects\CodeWarsCsharp\CodeWarsCsharp\CodeWars\obj\Debug\CodeWars.pdb
