@@ -33,17 +33,21 @@ namespace CodeWars
 
         public static List<int> Solve(List<string> arr)
         {
-            string str = "0abcdefghijklmnopqrstuvwxyz";
-            char[] chararr = str.ToCharArray();
+            var toReturn = new List<int>();
+            string str = "abcdefghijklmnopqrstuvwxyz";
 
             foreach(var element in arr)
             {
-                Console.Write(str);
+                int toAdd = 0;
+                for (int i = 0; i < element.Length; i++)
+                {
+                    var index = str.IndexOf(str.Single(s => s.ToString() == element[i].ToString().ToLower()));
+                    if (i == index) toAdd++;
+                }
+                toReturn.Add(toAdd);
             }
 
-   
-
-            throw new NotImplementedException();
+            return toReturn;
         }
     }
 }
